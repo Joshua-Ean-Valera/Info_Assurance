@@ -14,7 +14,7 @@ from PIL import Image
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 
-UPLOAD_FOLDER = r'C:\Users\Joshua Ean\Desktop\refactor kuno-20241221T015222Z-001\refactor kuno\static\avatars'
+UPLOAD_FOLDER = r'C:\Users\Joshua Ean\Desktop\Info_Assurance_FP\refactor kuno\static\avatars'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
 # Configure Flask-Mail
