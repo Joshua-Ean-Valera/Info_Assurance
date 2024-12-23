@@ -1,7 +1,7 @@
 # Plan and Done
 
 ## Overview
-Plan and Done is a Task Management system. It is a web-based platform built using Flask for managing users, their profiles, and administrative functions. It offers secure user authentication, role-based access control, and profile management. The application integrates with a SQL3 database, allowing admins to manage user accounts effectively.
+Plan and Done is a Task Management system. It is a web-based platform built using Flask for managing users, their profiles, and administrative functions. It offers secure user authentication, role-based access control, and profile management. The application integrates with a SQLite3 database, allowing admins to manage user accounts effectively.
 
 ---
 
@@ -14,15 +14,13 @@ Plan and Done is a Task Management system. It is a web-based platform built usin
   - Admin-specific features such as managing users.
   - Protected routes for authenticated users.
 - **Profile Management**:
-  - Users can update their personal information and profile pictures.
+  - Users can add profile pictures.
 - **File Uploads**:
   - Support for profile picture uploads (PNG, JPG, JPEG).
   - File size limit of 5 MB.
 - **Admin Functionalities**:
   - Add, edit, and delete users.
   - View a list of all users.
-- **Session Management**:
-  - Session timeout set to 7 days.
 
 ---
 
@@ -41,7 +39,7 @@ Plan and Done is a Task Management system. It is a web-based platform built usin
 ## Prerequisites
 
 - Python 3.7+
-- MySQL Database
+- SQLite3 Database
 
 ---
 
